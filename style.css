@@ -166,23 +166,32 @@ main {
 
 .app-aba {
     display: flex;
-    align-items: center;
+    align-items: end;
+
 }
 
-.app-aba button {
+.aba {
     display: flex;
     padding: 6px;
     font-size: 1.5rem;
-    font-weight: bold;
     color: #000;
     background: #E0E0E0;
     border: none;
 }
 
+.app-aba button:nth-child(1) {
+    border-radius: 4px 0px 0px 0px;
+}
+
+.app-aba button:nth-child(3){
+    border-radius: 0px 4px 0px 0px;
+}
+
 .press {
     color: #4F52FF;
+    padding: 8px;
     background: #fff;
-    border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px !important;
 }
 
 .app-form {
@@ -223,6 +232,8 @@ main {
     font-size: 14px;
     padding: 18px 24px;
     flex-grow: 2;
+    box-sizing: border-box;
+    min-width: 200px;
 }
 
 .form-button {
