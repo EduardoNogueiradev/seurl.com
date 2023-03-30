@@ -83,7 +83,7 @@ header {
 
 /* Inicio */
 .inicio {
-    height: 100vh;
+    height: Calc(100vh - 72px);
     width: 100vw;
     background: url(./img/inicio-fundo-mobile.png) no-repeat;
     background-size: 100% ;
