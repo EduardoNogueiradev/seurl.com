@@ -3,6 +3,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.title {
+    color: #373737;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 14px;
+    color: #707070;
+    line-height: 18px;
+    font-weight: 400;
+}
+
 
 /* Menu */
 header {
@@ -38,7 +50,6 @@ header {
 .menu-button {
     background: none;
     border: none;
-
 }
 
 .menu-icon {
@@ -105,18 +116,12 @@ header {
 }
 
 .inicio-box h2 {
-    color: #3E3E3E;
     font-size: 18px;
-    font-weight: 700;
     line-height: 21px;
 }
 
 .inicio-box p {
     margin: 8px 0px 18px;
-    color: #707070;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
     width: 300px;
 }
 
@@ -143,3 +148,136 @@ header {
     color: #01A6BA;
     border: 1px solid #01A6BA;
 }
+
+/* APP */
+
+main {
+    width: 100vw;
+    background: #7E81FF;
+}
+
+.app {
+    padding: 100px 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.app-aba {
+    display: flex;
+    align-items: center;
+}
+
+.app-aba button {
+    display: flex;
+    padding: 6px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    background: #E0E0E0;
+    border: none;
+}
+
+.press {
+    color: #4F52FF;
+    background: #fff;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.app-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 24px 14px;
+    background: #fff;
+    border-radius: 0px 4px 4px 4px;
+    box-sizing: border-box;
+}
+
+.app-form h1 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.app-form p {
+    width: 75%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.form-cont {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 12px;
+}
+
+.form-input {
+    border-radius: 4px;
+    border: none;
+    background: #EDEDED;
+    color: #707070;
+    font-size: 14px;
+    padding: 18px 24px;
+    flex-grow: 2;
+}
+
+.form-button {
+    border-radius: 4px;
+    border: none;
+    background: #4F52FF;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 18px 24px;
+    flex-grow: 1;
+}
+
+.motivo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/app-background.png) no-repeat bottom;
+    background-size: 100vw 47vh;
+    padding: 0px 16px 50px 16px;
+}
+
+.motivo-imagem{
+    width: 70%;
+}
+
+.motivo-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 14px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.motivo-cont h1 {
+    font-size: 20px; 
+    margin-bottom: 12px;
+}
+
+.cont-recursos {
+    margin-top: 24px;
+    display: flex;
+    gap: 4px;
+}
+
+.cont-recursos p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4E4E4E;
+}
+
+.cont-recursos i {
+    color: #4E4E4E;
+    font-size: 18px;
+}
+
