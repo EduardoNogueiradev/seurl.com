@@ -58,6 +58,10 @@ header {
     transition: .2s linear;
 }
 
+.menu-icon:hover {
+    cursor: pointer;
+}
+
 .logo a img {
     width: 90px;
 }
@@ -177,6 +181,10 @@ main {
     color: #000;
     background: #E0E0E0;
     border: none;
+}
+
+.aba:hover {
+    cursor: pointer;
 }
 
 .app-aba button:nth-child(1) {
