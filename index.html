@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/phosphor-icons"></script>
     <title>Seurl - Home</title>
+    <link rel="icon" href="./img/logo-seurl.png">
 </head>
 <body>
     <header>
@@ -42,8 +43,8 @@
                 <p class="text-center text">Encurte links de diversos lugares e utilize vários
                 recursos e vantagens que disponibilizamos para você</p>
                 <div class="box-button">
-                    <button>Encurtar</button>
-                    <button>Monitorar</button>
+                    <button class="button">Encurtar</button>
+                    <button class="button">Monitorar</button>
                 </div>
             </div>
         </div>
@@ -169,26 +170,26 @@
         </section>
         <section class="contato">
             <div>
-                <h1 class="title">Contato</h1>
-                <p>
+                <h1 class="title text-center">Contato</h1>
+                <p class="text text-center">
                     Possui alguma dúvida, sugestão, reclamação
                     ou deseja enviar uma mensagem? 
                 </p>
             </div>
 
-            <form action="" method="post">
-                <h2>Fale conosco</h2>
+            <form class="contato-form" action="" method="post">
+                <h2 class="title">Fale conosco</h2>
                 
-                <label for="">Nome</label>
-                <input type="text">
+                <label for="nome">Nome</label>
+                <input class="form-input" name="nome" type="text" placeholder="Digite seu nome">
 
-                <label for="">E-mail</label>
-                <input type="email">
+                <label for="email">E-mail</label>
+                <input class="form-input" name="email" type="email" placeholder="Jhon@example.com">
                 
-                <label for="">Mensagem</label>
-                <input type="text">
+                <label for="mensagem">Mensagem</label>
+                <textarea class="form-input" name="mensagem" placeholder="Escreva sua mensagem" rows="4"></textarea>
 
-                <input type="submit">
+                <input type="submit" class="form-button">
             </form>
         </section>
 
