@@ -89,7 +89,7 @@ header {
 .inicio {
     height: Calc(100vh - 72px);
     width: 100vw;
-    background: url(./img/inicio-fundo-mobile.png) no-repeat;
+    background: url(./img/inicio-bg-mobile.png) no-repeat;
     background-size: 100% ;
     display: flex;
     justify-content: center;
@@ -300,3 +300,90 @@ main {
     font-size: 18px;
 }
 
+/* Vantagem */
+
+.vantagem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 16px;
+}
+
+.vantagem h1 {
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.vantagem-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    gap: 36px;
+}
+
+.vantagem-box_column1, .vantagem-box_column2 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 48px);
+    gap: 36px;
+}
+
+.vantagem-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card-header i {
+    color: #4F52FF;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-header h2 {
+    font-size: 16px;
+    color: #3E3E3E;
+    font-weight: bold  ;
+}
+
+.vantagem-card p {
+    line-height: 16px;
+}
+
+/* Responsividade */
+.responsividade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 16px;
+    box-sizing: border-box;
+    background: url(./img/resp-bg.png) no-repeat;
+}
+
+.responsividade h1 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.responsividade p {
+    color: #EDEDED;
+    margin-bottom: 28px;
+    width: 100%;
+}
+
+.responsividade img {
+    width: 70%;
+}
